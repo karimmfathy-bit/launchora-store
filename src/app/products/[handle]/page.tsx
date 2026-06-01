@@ -33,7 +33,7 @@ export default async function ProductPage({ params }: { params: Promise<{ handle
           <h1 style={{ fontFamily: "Syne, sans-serif", fontWeight: 800, fontSize: "clamp(36px,5vw,56px)", marginBottom: "20px" }}>
             {product.title}
           </h1>
-          <p style={{ color: "var(--text-secondary)", fontSize: "18px", lineHeight: "1.7", marginBottom: "32px", maxWidth: "600px", mx: "auto" }}>
+          <p style={{ color: "var(--text-secondary)", fontSize: "18px", lineHeight: "1.7", marginBottom: "32px", maxWidth: "600px", marginLeft: "auto", marginRight: "auto"
             {product.description}
           </p>
           <div className="flex items-center justify-center gap-3 mb-8">
